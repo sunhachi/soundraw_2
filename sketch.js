@@ -8,7 +8,7 @@ let startButton;
 function preload() {
   const types = ['high', 'low', 'loud', 'quiet', 'far', 'near', 'silence'];
   for (let type of types) {
-    images[type] = loadImage(`assets/${type}.png`);
+    images[type] = loadImage(`assets/${type}.PNG`);
   }
 }
 
